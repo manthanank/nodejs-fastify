@@ -6,6 +6,9 @@ const itemRoutes = require("./routes/itemRoutes");
 // Register plugins and routes
 fastify.register(dbConnector);
 fastify.register(require("@fastify/cors"), { origin: "*" });
+fastify.get("/", async (request, reply) => {
+  return message = "API is running";
+});
 fastify.register(itemRoutes, { prefix: "/api/items" });
 
 // Start the server

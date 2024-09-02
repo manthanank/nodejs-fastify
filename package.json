@@ -12,9 +12,9 @@
     "fastify",
     "mongodb"
   ],
-  "author": "",
+  "author": "Manthan Ankolekar",
   "license": "ISC",
-  "description": "",
+  "description": "This is a simple nodejs fastify application",
   "dependencies": {
     "@fastify/cors": "^9.0.1",
     "dotenv": "^16.4.5",
